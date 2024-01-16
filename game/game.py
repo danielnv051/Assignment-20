@@ -37,10 +37,17 @@ class Game(QMainWindow):
     def select_winner(self):
         if self.ui.user_select.text() == self.ui.cpu_1_select.text() == self.ui.user_select== self.ui.cpu_2_select.text():
             self.savePoints(1,1,1)
+            self.ui.groupBox_2.setStyle('background-color: rgb(85, 255, 127);')
+            self.ui.groupBox_3.setStyle('background-color: rgb(85, 255, 127);')
+            self.ui.groupBox_4.setStyle('background-color: rgb(85, 255, 127);')
         elif self.ui.user_select.text() == self.ui.cpu_1_select.text() != self.ui.cpu_2_select.text():
             self.savePoints(1,1,0)
+            self.ui.groupBox_4.setStyle('background-color: rgb(85, 255, 127);')
+            self.ui.groupBox_3.setStyle('background-color: rgb(85, 255, 127);')
         elif self.ui.user_select.text() != self.ui.cpu_1_select.text() == self.ui.cpu_2_select.text():
             self.savePoints(0,1,1)
+            self.ui.groupBox_3.setStyle('background-color: rgb(85, 255, 127);')
+            self.ui.groupBox_2.setStyle('background-color: rgb(85, 255, 127);')
 
 
     def savePoints(self,user,cpu1,cpu2):
