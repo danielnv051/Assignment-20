@@ -38,6 +38,9 @@
        <height>80</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 127)</string>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -107,6 +110,9 @@
        <width>91</width>
        <height>80</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 127)</string>
      </property>
      <property name="title">
       <string/>
