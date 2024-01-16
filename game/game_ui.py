@@ -122,7 +122,7 @@ class Ui_MainWindow(object):
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"USER", None))
         self.cpu_2_point.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.cpu_1_point.setText(QCoreApplication.translate("MainWindow", u"0", None))
-        self.user_point.setText(QCoreApplication.translate("MainWindow", u"1", None))
+        self.user_point.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.inside.setText(QCoreApplication.translate("MainWindow", u" \u270b ", None))
         self.outside.setText(QCoreApplication.translate("MainWindow", u"\ud83e\udd1a", None))
     # retranslateUi
