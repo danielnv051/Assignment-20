@@ -1,5 +1,5 @@
 print(
-    "Enter Numbers for check symetric array like and put space between each number: 1 4 3 4 1 => [1,4,3,4,1]"
+    "Enter Numbers for check symetric array (put space between each number): 1 4 3 4 1 => [1,4,3,4,1]"
 )
 araye = input().split(" ")
 araye_len = len(araye)
